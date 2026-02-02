@@ -1,9 +1,20 @@
-even_num =[2,4,6,8,10,12,14,16,18,20]
-print(even_num[-6:-3:1])
+# 02-02-2026
+
+'''
+Docstring for Datas.py.Opertaors.assignment
+
+ Assignment - (= , += , -= , /= , *= , **= , %=)
+
+'''
+
+a = 67
+print(a)
+
+# short hand operators
+
+b = 34
+b = b + 1    # b = b+1 is similar to b+=1
+print(b)
 
 
-# using positive step slicing 
-
-print(even_num[7:2:-1])
-
-# 
+# same for rest - do it

@@ -1,15 +1,31 @@
-# 02-02-2026---Operators
+# 03-02-2026
+'''
+Docstring for Conditionals.intro
+
+Conditional statement - these are the statements which executes a block of code on the basis of condition applied.
+
+types:
+1. if
+2. if else
+3. if elif else
+4. nested if else
+5. match case
+'''
 
 '''
-Docstring for Datas.py.Opertaors.intro
-operators - these are symbols and keywords which performs operations on
-operands(variables,constants)
-7 types:
-1. Arithmetic - (+ , - , * , / , // , ** , %)
-2. Assignment - (= , += , -= , /= , *= , **= , %=)
-3. Relational operator - (< , > , <= , >= , == , !=)
-4. Logical operator - (and , or , not)
-5. Membership operator - (in , not in)
-6. Identity operator - (is , is not)
-7. Bitwise operator - (& , | , ~ , ^ , << , >>)
+if statement
+
+Syntax:
+if(condition):
+    #block of code
 '''
+
+x = 67
+if(x>50):
+    print("is greater.")
+
+# age criteria
+
+age = int(input("Enter age to check eligibility : "))
+if(age>18):
+    print("can vote.")

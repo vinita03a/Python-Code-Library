@@ -1,3 +1,12 @@
+# 30-January-2026
+
+'''
+Docstring for Datas.py.string1
+
+string - its collection of characters enclosed in '', "", """ """
+'''
+
+
 word = "Hello"
 print(word)
 print(len(word))
@@ -142,3 +151,44 @@ replace_word = name.replace("@","a")
 print(replace_word)
 
 # find() , startswith(), endswith(), count()
+
+
+
+#----- 31-January-2026---------
+
+# 1. s = "apple banana mango grapes"
+# Split the string into a list of words.
+# 2. s = "red,green,blue,yellow"
+# Split using comma (,) as separator.
+# 3. s = "Python@@Java@@C@@C++"
+# Split using @@.
+
+# 4. s = "name=Akanksha;course=Python;year=2025"
+# Split using ; and display list.
+
+# 5. words = ["apple", "banana", "mango"]
+# Join them with , .
+
+
+#1.
+s ="apple banana mango grapes"
+fruits = s.split()
+print(fruits)
+
+#3
+s = "Python@@Java@@C@@C++"
+courses = s.split()
+print(courses)
+
+
+#4
+s = "name=Akanksha;course=Python;year=2025"
+student = s.split(sep=";")
+print(student)
+
+
+#5
+
+words = ["apple", "banana", "mango"]
+fruits = ",".join(words)
+print(fruits)

@@ -76,12 +76,12 @@ and so on
 '''
 
 
-3. Right-aligned Number Triangle
-        1
-      1 2
-    1 2 3
-  1 2 3 4
-1 2 3 4 5
+# 3. Right-aligned Number Triangle
+#         1
+#       1 2
+#     1 2 3
+#   1 2 3 4
+# 1 2 3 4 5
 
 
 n=5
@@ -89,3 +89,42 @@ for r in range(1, n+1):
     for c in range(1,r+1):      #(5-1) -> 4
         print(c,end=" ")      
     print()
+
+# -------------11-02-2026--------------------
+
+
+# 4. Pyramid of Same Numbers
+#     1
+#    2 2
+#   3 3 3
+#  4 4 4 4
+# 5 5 5 5 5
+
+
+
+
+
+
+
+#7 Numbrt Pyramid (Floys)
+
+
+
+#8 Number Triangle.......
+
+# 5
+# 4 5
+# 3 4 5
+# 2 3 4 5
+# 1 2 3 4 5
+
+print("Number Triangle with reverse Row Order")
+
+n=5
+for i in range(n, 0 ,-1):
+    for col in range(i,n+1):
+        print(col,end=" ")
+    print()
+print()
+
+

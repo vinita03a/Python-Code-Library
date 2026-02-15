@@ -183,6 +183,7 @@ Task:-
 3.      Write a function that takes a number and prints whether it is even or odd.
 4.      Write a function that takes a list of numbers and prints only the even ones.
 5.      Write a function that accepts a number and prints its multiplication table.
+
 '''
 
 # 1

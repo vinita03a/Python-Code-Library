@@ -28,7 +28,7 @@ class Employee:
         return self.__emp_name
     
     def get_location(self):
-        return self.
+        return self.__emp_id
     
     # pending see lecutre
     # next --->inheritance

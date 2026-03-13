@@ -58,4 +58,8 @@ class Result(Academics,Sports):
 
 # next---->inherit-multilevel.py
 
+# 09-03-2026---method
+
+
+
     
